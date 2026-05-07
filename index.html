@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<div class="skill-card">
+<h3>Méthodes</h3>
+<p>Merise/2, UML</p>
+</div>
+
+<div class="skill-card">
+<h3>Travail collaboratif</h3>
+<p>GitHub, Branches, Pull Requests</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="section">
+
+<div class="contact-container">
+
+<div class="card">
+
+<h2>
+<i class="fa-regular fa-envelope"></i>
+Me contacter
+</h2>
+
+<form>
+
+<input type="text" placeholder="Nom">
+
+<input type="email" placeholder="Email">
+
+<textarea placeholder="Votre message"></textarea>
+
+<button type="submit">
+Envoyer le message
+</button>
+
+</form>
+
+</div>
+
+<div class="card">
+
+<h2>Informations</h2>
+
+<p>
+<i class="fa-solid fa-envelope"></i>
+mail@gmail.com
+</p>
+
+<p>
+<i class="fa-solid fa-phone"></i>
+06 00 00 00 00
+</p>
+
+<p>
+<i class="fa-solid fa-location-dot"></i>
+Paris, France
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+<p>© 2025 - Portfolio BTS SIO SLAM</p>
+</footer>
+
+<script>
+
+console.log("Portfolio chargé !")
+
+</script>
+
+</body>
+</html>
+*{
+}
+
+input,
+textarea{
+    background:#0f172a;
+    border:none;
+    padding:15px;
+    border-radius:10px;
+    color:white;
+}
+
+textarea{
+    height:150px;
+}
+
+button{
+    background:#38bdf8;
+    border:none;
+    padding:15px;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#94a3b8;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:900px){
+
+    nav{
+        padding:20px;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero-content{
+        flex-direction:column-reverse;
+        text-align:center;
+    }
+
+    .hero-text h1{
+        font-size:50px;
+    }
+
+    .hero-text h2{
+        font-size:30px;
+    }
+
+    .buttons{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .socials{
+        justify-content:center;
+    }
+
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+
+    .hero-image img{
+        width:220px;
+    }
+}
